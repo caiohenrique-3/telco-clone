@@ -1,0 +1,24 @@
+.top-bar {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+
+.top-bar-content {
+  display: flex;
+}
+
+.tel-1,
+.tel-2,
+.email {
+  display: flex;
+  padding-inline: 1rem;
+}
+
+@media (min-width: 1020px) {
+  .top-bar {
+    display: flex;
+  }
+}
