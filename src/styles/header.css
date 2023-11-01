@@ -4,6 +4,12 @@ header {
   align-items: center;
   align-content: center;
   margin: 1rem;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  inline-size: 90%;
 }
 
 header .img-container img {
@@ -200,6 +206,10 @@ header #menu-button:hover {
 }
 
 @media (min-width: 960px) {
+  header {
+    inline-size: 95%;
+  }
+
   header .img-container img {
     inline-size: 100%;
   }
@@ -211,5 +221,11 @@ header #menu-button:hover {
   .navbar {
     display: flex;
     margin-inline-start: 5rem;
+  }
+}
+
+@media (min-width: 1020px) {
+  header {
+    top: 0.8rem;
   }
 }
