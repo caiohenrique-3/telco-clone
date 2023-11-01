@@ -10,6 +10,12 @@
   display: flex;
 }
 
+.tel-1 img,
+.tel-2 img,
+.email i {
+  padding-inline-end: 0.4rem;
+}
+
 .tel-1,
 .tel-2,
 .email {
