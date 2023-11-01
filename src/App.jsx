@@ -1,17 +1,17 @@
 // components
-import "./components/TopBar";
+import TopBar from "./components/TopBar";
+import Header from "./components/Header";
 
 // css
 import "./styles/index.css";
 import "./styles/fonts.css";
-import TopBar from "./components/TopBar";
 
 function App() {
   return (
-    <>
+    <div className="container">
       <TopBar />
-      <h1>Hello World!</h1>
-    </>
+      <Header />
+    </div>
   );
 }
 

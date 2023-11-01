@@ -1,0 +1,215 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 1rem;
+}
+
+header .img-container img {
+  inline-size: 70%;
+}
+
+.navbar {
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .button-container {
+  position: relative;
+}
+
+.navbar .dropdown-content {
+  position: absolute;
+  top: 100%;
+  right: -2rem;
+  border-block-end: 0.1rem solid #333333;
+  inline-size: 7rem;
+  margin-block-start: 0.5rem;
+  display: block;
+  background-color: black;
+}
+
+.navbar ul li,
+.navbar a,
+.navbar button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.navbar button:hover {
+  cursor: pointer;
+}
+
+.navbar .button-container,
+.navbar #contact-button {
+  margin-inline: 1.5rem;
+}
+
+.navbar .dropdown-content {
+  margin-inline: 1rem;
+  padding-inline-start: 1rem;
+}
+
+.navbar ul li {
+  display: inline-block;
+}
+
+.navbar .dropdown-content li a:hover,
+.navbar #contact-button a:hover {
+  color: yellow;
+}
+
+.navbar li {
+  padding-block: 0.7rem;
+}
+
+.navbar #support-dropdown-content {
+  inline-size: 8.5rem;
+  right: -3rem;
+}
+
+.navbar #telcomanager-dropdown-content {
+  inline-size: 8.5rem;
+  right: -1.5rem;
+}
+
+.navbar #language-dropdown-content {
+  inline-size: 2rem;
+  right: -1.5rem;
+}
+
+.navbar #language-dropdown-content {
+  padding-inline-end: 3rem;
+}
+
+.navbar .icon-container i {
+  padding-inline-start: 0.5rem;
+}
+
+header .menu-container {
+  margin-inline-start: auto;
+}
+
+header #menu-button {
+  background-color: transparent;
+  border: none;
+}
+
+header #menu-button:hover {
+  cursor: pointer;
+}
+
+.menu-container i {
+  font-size: 1.75rem;
+  color: white;
+}
+
+.side-menu {
+  position: fixed;
+  top: 0;
+  right: 100%;
+  text-align: left;
+  inline-size: 100%;
+  block-size: 100vh;
+  background-color: #262626;
+  color: white;
+  overflow-y: scroll;
+  transition: right 0.3s ease;
+}
+
+.side-menu.open {
+  right: 0;
+}
+
+.close-menu-button {
+  border: none;
+  background-color: transparent;
+  text-align: left;
+}
+
+.close-menu-button i:hover {
+  cursor: pointer;
+}
+
+.close-menu-button i {
+  background-color: #262626;
+  padding: 1.2rem;
+  font-size: 1.5rem;
+}
+
+.side-menu ul {
+  border-block-start: 0.1rem solid #333333;
+  list-style: none;
+}
+
+.side-menu ul li {
+  padding: 1.2rem;
+  border-block-end: 0.1rem solid #333333;
+  color: white;
+}
+
+.side-menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.side-menu ul li a:hover {
+  color: yellow;
+}
+
+.side-menu .button-container {
+  position: relative;
+  inline-size: 100%;
+}
+
+.side-menu .button-container:hover {
+  cursor: pointer;
+}
+
+.side-menu ul li button {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 1rem;
+  padding-inline-end: 1rem;
+  display: flex;
+}
+
+.side-menu ul li button:hover {
+  cursor: pointer;
+}
+
+.side-menu .fa.fa-angle-down,
+.side-menu .fa.fa-angle-up {
+  font-size: 1.2rem;
+  vertical-align: middle;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media (min-width: 321px) {
+  .side-menu {
+    inline-size: 20rem;
+  }
+}
+
+@media (min-width: 960px) {
+  header .img-container img {
+    inline-size: 100%;
+  }
+
+  #menu-button {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    margin-inline-start: 5rem;
+  }
+}
