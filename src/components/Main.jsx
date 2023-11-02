@@ -189,6 +189,40 @@ export default function Main() {
           </a>
         </div>
       </section>
+
+      <section id="faq">
+        <article id="how-to-buy">
+          <i className="fa fa-usd" aria-hidden="true"></i>
+          <h3>Como comprar?</h3>
+          <p>
+            As soluções Telcomanager serão um marco de investimento em sua
+            empresa. Entre em contato conosco para realizarmos a melhor cotação
+            e solução para o seu tipo de negócio.
+          </p>
+          <a href="">Saiba como</a>
+        </article>
+
+        <article id="needs-support">
+          <i className="fa fa-question" aria-hidden="true"></i>
+          <h3>Precisa de suporte?</h3>
+          <p>
+            Temos um sistema único de atendimento de suporte. A agilidade e
+            competência de nossa equipe fará com que qualquer problema seja
+            resolvido maneira mais rápida e completa possível.
+          </p>
+          <a href="">Abra um chamado</a>
+        </article>
+        <article id="other">
+          <i class="fa fa-phone" aria-hidden="true"></i>
+          <h3>Outro assunto?</h3>
+          <p>
+            Dúvidas, sugestões, reclamações, bate-papos? Será um prazer ouvir
+            você e saber como podemos te ajudar. Estamos dispostos a atender a
+            sua necessidade da melhor forma possível.
+          </p>
+          <a href="">Entre em contato</a>
+        </article>
+      </section>
     </main>
   );
 }

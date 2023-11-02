@@ -145,6 +145,43 @@ main {
   background-color: black;
 }
 
+#faq article i {
+  font-size: 2rem;
+}
+
+#faq h3 {
+  padding-block-start: 0.5rem;
+  padding-block-end: 1rem;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+#faq article {
+  padding-block-end: 4rem;
+  max-inline-size: 18.75rem;
+}
+
+#faq article p {
+  line-height: 1.5;
+  font-size: 1.2rem;
+  padding-inline: 0.5rem;
+  padding-block-end: 2rem;
+  max-inline-size: 61.25rem;
+}
+
+#faq article a {
+  text-decoration: none;
+  padding: 1rem;
+  background-color: #4a97c2;
+  color: white;
+}
+
+#faq article a:hover,
+#faq article a:focus {
+  background-color: black;
+  color: white;
+}
+
 @media (min-width: 640px) {
   #benefits ul {
     display: flex;
@@ -152,6 +189,17 @@ main {
 
   #benefits ul li {
     block-size: 8.375rem;
+  }
+}
+
+@media (min-width: 760px) {
+  #faq {
+    display: flex;
+    margin-block-start: 1rem;
+  }
+
+  #faq article {
+    margin-inline: 0.5rem;
   }
 }
 
