@@ -1,0 +1,43 @@
+footer {
+  position: static;
+  bottom: 0;
+  left: 0;
+  background-color: #333333;
+  color: white;
+  margin-block-start: 5rem;
+  padding: 1rem;
+  text-align: right;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul li {
+  padding-inline: 0.4rem;
+}
+
+footer p,
+footer a {
+  padding-block-end: 1rem;
+}
+
+footer .copyright p {
+  font-size: 1.1rem;
+}
+
+footer .links-container {
+  font-size: 1.5rem;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover,
+footer a:focus {
+  color: #4a97c2;
+}
