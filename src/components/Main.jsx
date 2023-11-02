@@ -71,6 +71,99 @@ export default function Main() {
           </div>
         </article>
       </section>
+
+      <section id="benefits">
+        <h2>
+          Por que comprar soluções <strong>Telcomanager</strong>?
+        </h2>
+        <p>
+          As soluções Telcomanager monitoram e ajudam a controlar as redes de
+          operadoras de telecomunicações, de cadeias de varejo, bancos e
+          organizações financeiras, empresas de logísticas, indústrias de base,
+          provedores de conteúdo, entre outros.
+        </p>
+
+        <p>
+          Destacando-se por sua excelência tecnológica, facilidade de uso,
+          eficácia e alta eficiência, os produtos Telcomanager tem obtido grande
+          sucesso atendendo importantes representantes dos mais diversos
+          segmentos do mercado.
+        </p>
+
+        <div className="img-container">
+          <img
+            src="./telco-browsers.png"
+            alt="UI of a software made by Telcomanager"
+            width="980"
+            height="370"
+          />
+        </div>
+
+        <ul>
+          <div className="row">
+            <li>
+              <img src="./argumentos_1.png" aria-hidden="true" />
+              <p>
+                Análise global da rede
+              </p>
+            </li>
+            <li>
+              <img src="./argumentos_2.png" aria-hidden="true" />
+              <p>
+                Controle da utilização da rede
+              </p>
+            </li>
+            <li>
+              <img src="./argumentos_3.png" aria-hidden="true" />
+              <p>
+                Identificação de tráfego suspeito
+              </p>
+            </li>
+          </div>
+
+          <div className="row">
+            <li>
+              <img src="./argumentos_7.png" aria-hidden="true" />
+              <p>
+                Alerta de falhas
+              </p>
+            </li>
+            <li>
+              <img src="./argumentos_4.png" aria-hidden="true" />
+              <p>
+                Planejamento de capacidade
+              </p>
+            </li>
+            <li>
+              <img src="./argumentos_6.png" aria-hidden="true" />
+              <p>
+                Análise de performance e de infraestrutura
+              </p>
+            </li>
+          </div>
+
+          <div className="row">
+            <li>
+              <img src="./argumentos_5.png" aria-hidden="true" />
+              <p>
+                Planejamento de QoS
+              </p>
+            </li>
+            <li>
+              <img src="./argumentos_8.png" aria-hidden="true" />
+              <p>
+                Monitoramento de fatores SLA
+              </p>
+            </li>
+            <li>
+              <img src="./argumentos_9.png" aria-hidden="true" />
+              <p>
+                Identificação de abusos de usuários
+              </p>
+            </li>
+          </div>
+        </ul>
+      </section>
     </main>
   );
 }
