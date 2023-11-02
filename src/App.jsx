@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Swiper from "./components/Swiper";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
+import ReturnToTopArrow from "./components/ReturnToTopArrow";
 
 // css
 import "./styles/index.css";
@@ -17,6 +18,7 @@ function App() {
       <Swiper />
       <Main />
       <Footer />
+      <ReturnToTopArrow />
     </div>
   );
 }
