@@ -2,6 +2,7 @@
 import TopBar from "./components/TopBar";
 import Header from "./components/Header";
 import Swiper from "./components/Swiper";
+import Main from "./components/Main";
 
 // css
 import "./styles/index.css";
@@ -13,16 +14,7 @@ function App() {
       <TopBar />
       <Header />
       <Swiper />
-      <h2>
-        Lorem ipsum
-      </h2>
-      <h3>
-        Lorem ipsum dolor sit amet
-      </h3>
-      <h4>
-        Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint
-        cillum sint consectetur cupidatat.
-      </h4>
+      <Main />
     </div>
   );
 }

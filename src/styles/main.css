@@ -1,0 +1,74 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#software article {
+  margin-block-start: 1.5rem;
+}
+
+#software .img-container img {
+  inline-size: 100%;
+  max-inline-size: 17.25rem;
+  block-size: auto;
+}
+
+#software h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.logo-color {
+  font-weight: 700;
+}
+
+#trafip .logo-color {
+  color: #0a6526;
+}
+
+#slaview .logo-color {
+  color: #ee8a0d;
+}
+
+#cfgtool .logo-color {
+  color: #6e1372;
+}
+
+#software p {
+  font-size: 1.2rem;
+  padding-inline: 0.5rem;
+  padding-block-end: 1.5rem;
+}
+
+#software .content a {
+  color: blue;
+  text-underline-offset: 0.2rem;
+  font-size: 1.2rem;
+}
+
+#software .content a:hover,
+#software .content a:focus {
+  font-weight: 700;
+}
+
+@media (min-width: 960px) {
+  #software {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: center;
+  }
+
+  #software article {
+    inline-size: 17.25rem;
+    margin-inline: 2rem;
+  }
+
+  #software p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+}
