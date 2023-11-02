@@ -89,6 +89,62 @@ main {
   padding-block-end: 1rem;
 }
 
+#demo h2 {
+  padding-block-start: 3.5rem;
+  padding-block-end: 1rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+#demo p {
+  line-height: 1.5;
+  font-size: 1.2rem;
+  padding-inline: 0.5rem;
+  padding-block-end: 1rem;
+  max-inline-size: 61.25rem;
+}
+
+#demo .img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-inline: 1rem;
+  margin-block-end: 3rem;
+}
+
+#demo .img-container img {
+  display: flex;
+  inline-size: 100%;
+  max-inline-size: 32.563rem;
+  block-size: auto;
+}
+
+#demo .img-container a {
+  text-decoration: none;
+  font-weight: 700;
+  background-color: #1a73e8;
+  color: white;
+  inline-size: 100%;
+  max-inline-size: 20rem;
+  padding: 1rem;
+  margin-block-start: 1rem;
+  margin-block-end: 1.5rem;
+  margin-inline-start: 1rem;
+  font-size: 1.3rem;
+}
+
+#demo .img-container i {
+  padding-inline-start: 0.5rem;
+  padding-block-start: 0.5rem;
+}
+
+#demo .img-container a:hover,
+#demo .img-container a:focus {
+  color: white;
+  background-color: black;
+}
+
 @media (min-width: 640px) {
   #benefits ul {
     display: flex;

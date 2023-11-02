@@ -164,6 +164,31 @@ export default function Main() {
           </div>
         </ul>
       </section>
+
+      <section id="demo">
+        <h2>
+          Assuma o controle da sua rede, use <strong>Telcomanager</strong>
+        </h2>
+        <p>
+          Quando uma empresa utiliza as soluções Telcomanager em sua rede, a
+          equipe obtém maior controle e visibilidade sobre os recursos que
+          gerencia. Assim, pode otimizar a infraestrutura da rede para melhorar
+          desempenho das aplicações, realizar planejamentos e investimentos mais
+          precisos e entregar mais valor agregado ao seu negócio.
+        </p>
+        <div className="img-container">
+          <img
+            src="./TM1000-5.png"
+            alt="A picture of the TM1000-5, a modem made by Telcomanager"
+            width="521"
+            height="87"
+          />
+
+          <a href="">
+            Peça uma demonstração <i className="fa fa-television"></i>
+          </a>
+        </div>
+      </section>
     </main>
   );
 }
