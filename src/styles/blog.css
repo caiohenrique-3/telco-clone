@@ -1,0 +1,30 @@
+#blog {
+  max-inline-size: 100dvh;
+  padding-inline: 5rem;
+  margin-block-end: 1rem;
+  block-size: 15rem;
+}
+
+#blog h2 {
+  border-block-start: 0.1rem solid grey;
+  padding-block-start: 1rem;
+  padding-block-end: 1.5rem;
+  text-transform: uppercase;
+}
+
+#blog p {
+  margin-block-end: 1.5rem;
+  padding-inline: 0.5rem;
+  line-height: 1.5;
+}
+
+#blog a {
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+}
+
+#blog a:hover,
+#blog a:focus {
+  color: #4a97c2;
+  font-weight: 700;
+}

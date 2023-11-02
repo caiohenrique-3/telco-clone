@@ -1,3 +1,6 @@
+// components
+import Blog from "../components/Blog";
+
 // css
 import "../styles/main.css";
 
@@ -223,6 +226,8 @@ export default function Main() {
           <a href="">Entre em contato</a>
         </article>
       </section>
+
+      <Blog />
     </main>
   );
 }
