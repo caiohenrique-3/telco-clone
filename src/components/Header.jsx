@@ -13,6 +13,7 @@ export default function Header() {
     language: false,
     telcomanager: false,
   });
+  const [isScrolled, setIsScrolled] = useState(false);
 
   function handleMenuButtonClick() {
     setIsMenuOpen(true);
@@ -66,8 +67,24 @@ export default function Header() {
     };
   }, []);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <header>
+    <header className={isScrolled ? "scrolled" : ""}>
       <div className="img-container">
         <img
           id="site-logo"

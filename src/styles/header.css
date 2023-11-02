@@ -4,12 +4,17 @@ header {
   align-items: center;
   align-content: center;
   margin: 1rem;
-  background-color: transparent;
+  background-color: transparent 0.3s ease;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 10;
   inline-size: 90%;
+}
+
+header.scrolled {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
 }
 
 header .img-container img {
